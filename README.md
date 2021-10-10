@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Small testing Rails app with static invoice pdf rendering using:
+  * grover 1.0.5 gem and puppeteer 10.4 javascript package
 
-Things you may want to cover:
+Invoice's html uses Bootstrap 5
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Inside app/services/invoice_benchtest_pdf.rb contains simple pdf generator benchmark.
